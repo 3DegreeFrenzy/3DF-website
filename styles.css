@@ -234,6 +234,36 @@ section p { color: var(--muted) }
 .author-name { margin: 0 0 4px; font-weight: 600; color: var(--text); font-size: 0.9rem }
 .author-title { margin: 0; font-size: 0.8rem; color: var(--muted) }
 
+/* Support callout */
+/* Shared support styles */
+.support-actions { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+.support-actions .btn { min-width: 200px; }
+.support-qr { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+.support-qr img { width: 140px; height: 140px; border-radius: 10px; border: 1px solid var(--border); background: #fff; object-fit: contain; }
+.support-qr .qr-caption { margin: 0; color: var(--muted); font-size: 0.9rem; }
+
+/* Support strip (above footer) */
+.support-strip {
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(135deg, #0d1d2b, #0f2740);
+  padding: 32px 0;
+}
+.support-strip.contact-support { margin-top: 24px; border-radius: 16px; padding: 24px; }
+.support-strip-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.support-strip .support-copy h3 { margin: 0 0 6px; color: var(--text); }
+.support-strip .support-copy .support-text { margin: 0; color: var(--muted); }
+.support-strip .support-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.support-strip .support-actions .btn { min-width: 180px; }
+.support-strip .support-qr img { width: 120px; height: 120px; }
+.support-strip .qr-caption { color: var(--muted); margin: 4px 0 0; font-size: 0.9rem; text-align: center; }
+
 /* Footer */
 .site-footer { border-top: 1px solid var(--border); padding: 20px 0; color: var(--muted); text-align: left }
 .site-footer .container { text-align: left }
