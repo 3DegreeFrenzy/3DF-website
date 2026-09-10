@@ -168,7 +168,7 @@ section p { color: var(--muted) }
 .card:nth-child(3) .avatar { object-position: center; }
 .card:nth-child(4) .avatar { object-position: center; }
 .card:nth-child(5) .avatar { object-position: center; }
-.card:nth-child(6) .avatar { object-position: center 18%; }
+.card:nth-child(6) .avatar { object-position: center 24%; }
 
 /* Contact */
 .contact-single { max-width: 800px; margin: 32px auto 0 }
